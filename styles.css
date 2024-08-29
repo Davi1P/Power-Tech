@@ -1,0 +1,165 @@
+/* Importando a fonte Montserrat */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #1c30a2;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #1c30a2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 13px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    color: #fab400;
+}
+
+/* Estilos para a seção de destaque (Hero) */
+.hero {
+    background: url('./img/Banner\ -\ Website.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+#article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#team {
+    width: 400px;
+}
+
+/* Estilos para as seções de conteúdo */
+.content-section {
+    padding: 50px 20px;
+    text-align: center;
+
+    width: 800px;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para o botão de contato */
+#contato {
+    background-color: #1c30a2;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+#contato:hover {
+    background-color: #283eff;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1c30a2;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #team {
+        width: 200px;
+    }
+
+    .content-section {
+        width: 300px;
+    }
+
+    .hero {
+        background: url('./img/Banner\ -\ mobile.png') no-repeat center center/cover;
+    }
+    scream
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .content-section h2 {
+        font-size: 24px;
+    }
+
+    .service h3 {
+        font-size: 20px;
+    }
+}
